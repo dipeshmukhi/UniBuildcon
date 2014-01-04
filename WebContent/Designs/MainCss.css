@@ -3,13 +3,85 @@ html, body{
 	width: 100%;
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
-	border: thick;
+}
+
+html{
+	 background: url("../Images/MainPage.jpg") no-repeat center center fixed; 
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
 }
 
 #mainpage{
-	background-image: url("../Images/MainPage.jpg");
-	background-repeat:no-repeat;
-	opacity: 0.5;
-	height:100%;
+	height: 100%;
+	width: 80%;
+	position: relative;
+	left: 10%;
+	right: 10%;
+	display:inline-block;
+	vertical-align: middle;
+}
+
+#heading{
+	background-color: white;
+	position: relative;
+	top: 5%;
+	overflow: hidden;
+	height: 100px;
 	width: 100%;
+	opacity: 0.8;
+}
+
+#heading h2{
+	position: relative;
+	color: red;
+	left: 20%;
+	right: 20%;
+	font: "Times New Roman";
+	font-size: 48px;
+	height: 100%;
+}
+
+#menu {
+	position: relative;
+	height: 50px;
+	top: 6%;
+	background-color: white;
+	opacity: 0.8;
+}
+
+#menu-list{
+	height: 80%;
+	list-style-position: inside;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	padding-left: 40%;
+	padding-right: 0;
+	padding-top: 1%;
+	width: 60%;
+}
+
+#menu-list li{	
+	position: relative;
+	list-style-position: inside;
+	display: inline;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	padding-top: 0%;	
+	cursor: pointer;
+	font-size: 150%;
+}
+
+a:LINK{
+	text-decoration: none;
+}
+
+a:HOVER{
+	background-color: red;
+	color: white;
+	
 }
