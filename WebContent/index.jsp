@@ -7,6 +7,7 @@
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<script src="JavaScriptLib/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js"></script>
 		<script src="JavaScriptCustom/MainPage.js"></script>
+		<link rel="stylesheet" type="text/css" href="JavaScriptLib/jquery-ui-1.10.3.custom/css/blitzer/jquery-ui-1.10.3.custom.min.css">
 		<link rel="stylesheet" type="text/css" href="Designs/MainCss.css">
 		<title>EXL Landa</title>
 	</head>
@@ -15,15 +16,15 @@
 			<div id="heading">
 				<h2>EXL Landa</h2>
 			</div>
-			<div id="menu">
+			<nav id="menu">
 				<ul id="menu-list">
-					<li><a href="#"> Home </a></li>
-					<li><a href="#"> About </a></li>
-					<li><a href="#"> Contact </a></li>
-					<li><a href="#"> Upcoming Projects </a></li>
-					<li><a href="#"> Subscribe </a></li>
+					<li class="menu-item"><a href="#"> Home </a></li>
+					<li class="menu-item"><a href="#"> About </a></li>
+					<li class="menu-item"><a href="#"> Contact </a></li>
+					<li class="menu-item"><a href="#"> Upcoming Projects </a></li>
+					<li class="menu-item"><a href="#"> Subscribe </a></li>
 				</ul>
-			</div>
+			</nav>
 			<div id="contentpage">
 			</div>
 		</div>		
