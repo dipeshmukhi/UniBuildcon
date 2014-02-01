@@ -14,18 +14,42 @@
 	<body>
 		<div id="mainpage">
 			<div id="heading">
-				<h2>EXL Landa</h2>
+				<div id="logo">
+					<h2></h2>
+				</div>
+				<nav id="menu">
+					<ul id="menu-list">
+						<li class="menu-item"><a href="#"> Home </a></li>
+						<li class="menu-item"><a href="#"> Contact </a></li>
+						<li class="menu-item"><a href="#"> Upcoming Projects </a></li>
+						<li class="menu-item"><a href="#"> Subscribe </a></li>
+					</ul>
+				</nav>
 			</div>
-			<nav id="menu">
-				<ul id="menu-list">
-					<li class="menu-item"><a href="#"> Home </a></li>
-					<li class="menu-item"><a href="#"> About </a></li>
-					<li class="menu-item"><a href="#"> Contact </a></li>
-					<li class="menu-item"><a href="#"> Upcoming Projects </a></li>
-					<li class="menu-item"><a href="#"> Subscribe </a></li>
-				</ul>
-			</nav>
 			<div id="contentpage">
+				<div id="slideshow">
+					<img alt="" src="">
+				</div>
+				
+				<div id="comment">
+				</div>
+				
+				<div id="thumbnails">
+					<ul id="thumbnails-menu">
+						<li class="thumbnails-item"><a href="#"><img alt="Image 1" src="Images/1.jpg"></a></li>
+						<li class="thumbnails-item"><a href="#"><img alt="Image 2" src="Images/2.jpg"></a></li>
+						<li class="thumbnails-item"><a href="#"><img alt="Image 3" src="Images/3.jpg"></a></li>
+						<li class="thumbnails-item"><a href="#"><img alt="Image 4" src="Images/4.jpg"></a><li>
+						<li class="thumbnails-item"><a href="#"><img alt="Image 5" src="Images/5.jpg"></a></li>
+					</ul>
+				</div>
+				
+				<div id="content">
+					<div id="home">
+						<p>
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>		
 	</body>

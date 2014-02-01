@@ -1,8 +1,11 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 html,body {
 	height: 100%;
-	width: 100%; padding : 0px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
+	width: 100%;
 }
 
 html {
@@ -25,51 +28,58 @@ html {
 #heading {
 	background-color: white;
 	position: relative;
-	margin: 0 0 0 0;
-	padding: 0 0 0 0; overflow : hidden;
 	min-height: 100px;
 	width: 100%;
 	opacity: 0.8;
 	overflow: hidden;
+	display: inline-block;
+	-moz-border-radius: 15px;
+    border-radius: 15px;	
 }
 
-#heading h2 {
-	display: inline; color : red;
-	margin: 0% 0% 0% 0%;
-	padding: 0 10% 0 10%;
+#logo{
+	width: 30%;
+	display: inline-block;
+}
+
+#logo h2 {
+	display: inline;
+	color : red;
+	padding: 0 5% 0 5%;
 	font-family: "Times New Roman", Times, serif;
 	font-style: italic;
 	font-size: 4em;
-	width: 80%;
+	width: 90%;
 	height: inherit;
 	color: red;
 }
 
 #menu {
 	height: 50px;
-	width: 100%;
-	margin: 1% 0%;
+	width: 70%;
+	margin: 5% 0% 0% 0%;
 	background-color: white;
 	opacity: 0.8;
+	display: inline-block;
+	position: absolute;
 }
 
 #menu-list {
-	margin: 0;
-	padding: 0;
 	width: 100%;
 	height: inherit;
 	float: left;
 	border: none;
+	list-style: none;
 }
 
 #menu-list li {
 	float:left;
-	width: 19.7%;
+	width: 24%;
 	height: 100%;
 	overflow: hidden;
 	text-align: center;
 	margin: 0% 1.5px;
-	background-image: url("../Images/download.png");
+	background-image: url("../Images/MenuBackground.png");
 	background-repeat: repeat-x;
 	-webkit-transition: .3s;
     -moz-transition: .3s;
@@ -83,8 +93,6 @@ html {
 	text-align: center;
 	text-decoration: none;
 	color: black;
-	padding: 0;
-	margin: 0;
 	height: inherit;
 	width: 100%;
 	line-height: 50px;
@@ -92,9 +100,23 @@ html {
 
 #contentpage{
 	width: 100%;
-	height: 80%;
+	height: 100%;
 	background-color: white;
 	opacity: 0.8;
+	-moz-border-radius: 15px;
+    border-radius: 15px;	
+}
+
+#slideshow{
+	height: 70%;
+	width: 100%;
+	display:inline-block;
+	top:150px;
+}
+
+#content{
+	height: 30%;
+	width: 100%;
 }
 
 .menu-item{
@@ -107,4 +129,39 @@ html {
 
 .current-menu-item, .active-menu-item{
 	background-position: 0px -41px;
+}
+
+p{
+	font-family:"Times New Roman",Georgia,Serif;
+	font-style: italic;
+	font-size: 130%;
+	font-weight: normal;
+	border: thin;
+}
+
+#thumbnails{
+	position: absolute;
+	top: 150px;
+	left: 75%;
+	width:175px;
+	overflow:hidden;
+	float:none;
+	height:420px;
+	z-index: 10;
+}
+
+#thumbnails ul{
+	list-style-type: none;
+	height:inherit;
+	padding:0 12.5px 0 12.5px;
+}
+
+#thumbnails ul li{
+	list-style-type: none;
+	width:inherit;
+}
+
+#thumbnails img{
+	width: 150px;
+	height: 100px;
 }
